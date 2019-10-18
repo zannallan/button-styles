@@ -8,6 +8,73 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .875rem;
   text-align: center;
+}
+
+.big-div {
+  padding: 1.125rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: .4em .75em;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #333;
+  border: 3px solid #333;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
+  border: 3px solid #000;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-subtle {
+  color: #fff;
+  background-color: #ccc;
+  border: 3px solid #ccc;
+}
+
+.btn-subtle:hover {
+  color: #fff;
+  background-color: #666;
+  border: 3px solid #666;
+}
+
+.btn-ghost {
+  color: #333;
+  background-color: #fff;
+  border: 3px solid #000;
+}
+
+.btn-ghost:hover {
+  color: #fff;
+  background-color: #666;
+  border: 3px solid #666;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f33;
+  border: 3px solid #f33;
+}
+
+.btn-warning:hover {
+  color: #fff;
+  background-color: #933;
+  border: 3px solid #933;
 }
